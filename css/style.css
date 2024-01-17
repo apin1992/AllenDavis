@@ -151,14 +151,14 @@ span {
   border: 0.2rem solid var(--main-color);
   border-radius: 50%;
   font-size: 2rem;
-  color: var(--main-color);
+  color: var(--main-color) !important;
   margin: 3rem 1.5rem 3rem 0;
   transition: 0.5s ease;
 }
 
 .social-media a:hover {
   background: var(--main-color);
-  color: var(--second-bg-color);
+  color: var(--second-bg-color) !important;
   box-shadow: 0 0 1rem var(--main-color);
   border: 1px solid var(--second-bg-color);
 }
