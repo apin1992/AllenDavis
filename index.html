@@ -103,28 +103,33 @@
 
       <div class="home-img">
         <div class="hexagon">
-          <img src="images/allenDavis.png" alt="" width="100px" height="300px" />
+          <img
+            src="images/allenDavis.png"
+            alt=""
+            width="100px"
+            height="300px"
+          />
         </div>
       </div>
     </section>
 
     <!-- about section design -->
 
+    <!-- about me as a mental health professional -->
+
     <section class="about" id="about">
       <div class="about-img">
-        <img src="images//CPT Davis.jpg" alt="" height="300px" />
+        <img src="images/educator2.jpg" alt="" height="300px" />
       </div>
-
       <div class="about-content">
         <h2 class="heading">About <span class="about-me-me">Me</span></h2>
-        <h3>Crisis Clinician</h3>
+        <h3>Mental Health Professional</h3>
         <p>
-          Greetings! I'm Mr. Allen Davis, a dedicated professional with a unique
-          background and a passion for making a positive impact on people's
-          lives. As a former army soldier, I proudly served our country. An
-          experience that has shaped my perspective and instilled in me the
-          values of discipline, resilience, and camaraderie. <br /><br />
-
+          I'm Mr. Allen Davis, a dedicated professional with a unique background
+          and a passion for making a positive impact on people's lives. As a
+          former army soldier, I proudly served our country. An experience that
+          has shaped my perspective and instilled in me the values of
+          discipline, resilience, and camaraderie. <br /><br />
           My journey in the military has not only equipped me with a strong
           sense of duty but has also fostered a deep commitment to mental health
           and well-being. I specialize in suicide prevention, drawing from my
@@ -132,23 +137,89 @@
           fields. Recognizing the critical importance of mental health, I have
           dedicated myself to understanding and addressing the complex
           challenges that individuals face. <br /><br />
-
-          <!-- Key Highlights:
-
-Military Service: Served with honor and distinction as an army soldier, completing a tour of duty in Afghanistan.
-
-Suicide Prevention Advocate: Leveraging my background in psychology and military service, I am passionate about raising awareness and providing support for suicide prevention. I believe in fostering open conversations to eliminate stigma and promote mental well-being.
-
-Education: Continuously expanding my knowledge in psychology-related fields through ongoing education and professional development.
-
-Mission: -->
-
           My mission is to contribute to the well-being of individuals by
           providing insights, resources, and support in the realm of mental
           health. Whether you're seeking information, guidance, or simply a
           conversation, I am here to help.
         </p>
         <a href="#contact" class="about-me-btn">Star Your Journey</a>
+      </div>
+    </section>
+    <!-- about me as a Educator -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/educator.jpg" alt="" height="300px" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span class="about-me-me">Me</span></h2>
+        <h3>Educator</h3>
+        <p>
+          Welcome to my educational realm! Passionate about mental health
+          education, I'm devoted to instilling a love for learning in every
+          student. My academic journey includes earning a Degree in human
+          psychology from University of MerriMack, backed by over 10 years of
+          enriching experience in education. I firmly believe in the
+          transformative power of education, unlocking doors to limitless
+          possibilities.<br /><br />
+          Guided by a robust teaching philosophy, I am dedicated to creating a
+          positive, inclusive learning environment. Every student in my
+          classroom is valued, challenged, and supported, with a commitment to
+          specific goals and outcomes. I employ teaching methods that foster
+          critical thinking, creativity, and collaboration, ensuring a dynamic
+          and engaging learning experience tailored to the unique needs and
+          interests of my students.<br /><br />
+          Beyond the classroom, I actively participate in extracurricular
+          activities or other mental health projects, emphasizing that education
+          extends beyond textbooks. I encourage students to explore their
+          passions and talents outside regular coursework. Valuing open
+          communication and collaboration, I invite parents to reach out with
+          any questions or concerns. I firmly believe in forging a strong
+          partnership between home and school, considering it essential for the
+          success of each student. On a personal note, I enjoy helping others,
+          bringing a sense of joy and enthusiasm into everything I do. I am
+          eagerly anticipating the upcoming school year, excited about the
+          opportunity to inspire, challenge, and empower my students. Let's
+          embark on this learning journey together!
+        </p>
+        <a href="#contact" class="about-me-btn">Embark on your Quest</a>
+      </div>
+    </section>
+    <!-- about me as military leader -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/ROTC Photo.jpg" alt="" height="300px" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span class="about-me-me">Me</span></h2>
+        <h3>Military Leader</h3>
+        <p>
+          I Allen Davis, a dedicated and experienced army leader committed to
+          excellence in every mission. With a profound understanding of
+          strategic planning and tactical execution, my military journey has
+          been marked by a relentless pursuit of discipline, adaptability, and
+          unwavering dedication to the principles of leadership. I've honed my
+          skills through years of service, rising through the ranks to become a
+          seasoned [Rank]. <br /><br />
+          My leadership philosophy centers around fostering a culture of
+          camaraderie, trust, and accountability within the ranks. I firmly
+          believe in leading by example, setting high standards, and inspiring
+          my team to achieve beyond their perceived limits. In the face of
+          challenges, I prioritize adaptability and strategic thinking, ensuring
+          that my team is well-prepared for any situation. I take pride in
+          cultivating a cohesive unit that operates seamlessly under pressure,
+          emphasizing the importance of clear communication and mutual
+          respect.<br /><br />
+          eyond the battlefield, I am passionate about mentorship and continuous
+          learning. I actively engage in professional development to stay at the
+          forefront of military strategies and leadership techniques. My
+          commitment extends to the welfare of my team, recognizing the
+          importance of fostering a healthy work-life balance. As we face the
+          challenges ahead, I am poised and ready to lead with determination,
+          ensuring the success and well-being of those under my command.
+          Together, we will navigate the complexities of our missions and emerge
+          victorious. Onward to excellence!
+        </p>
+        <a href="#contact" class="about-me-btn">Launch your Expedition</a>
       </div>
     </section>
 
@@ -360,8 +431,8 @@ Mission: -->
 
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me</span></h2>
-
-      <!-- <?php
+      <!-- 
+      <?php
 if (isset($_POST['email']) && !empty($_POST['email'])) {
 $subject = "New contact request: $_POST['subject']";
 $message = $_POST['body'];
@@ -372,30 +443,34 @@ $headers = 'From: info@website.com' . "\r\n" .
 mail('japresaperez@gmail.com', $subject, $message, $headers);
 
 die('Thank you for your email');
-} -->
-
-      <!-- 
+} 
     <form id="emailForm">
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
 
         <button type="button" onclick="sendEmail()">Submit</button>
-    </form>
+    </form> -->
 
-        <form action="mailto:japresaperez@gmail.com" method="GET">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
-            </div>
+      <form action="mailto:japresaperez@gmail.com" method="GET">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
 
-            <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="email" placeholder="Email Subject">
-            </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="email" placeholder="Email Subject" />
+        </div>
 
-            <textarea name="" id="" cols="30" row="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form> -->
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          row="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
 
       <!-- <!DOCTYPE html>
 <html lang="en">
@@ -418,7 +493,7 @@ die('Thank you for your email');
 
     <input type="submit" value="Submit">
   </form> -->
-      <div class="contact-container">
+      <!-- <div class="contact-container">
         <div class="contact-info">
           <p>
             Email:
@@ -435,7 +510,7 @@ die('Thank you for your email');
           <p>Phone: +1 719-639-4405</p>
           <img src="images/ROTC Photo.jpg" alt="" width="200px" />
         </div>
-      </div>
+      </div> -->
 
       <script src="script.js"></script>
     </section>
