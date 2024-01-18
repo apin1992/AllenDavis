@@ -1,7 +1,7 @@
 
 
 function sendMail() {
-    let params = {
+    let parms = {
       name: document.getElementById('name').value,
       email: document.getElementById('email').value,
       subject: document.getElementById('subject').value,
@@ -9,8 +9,9 @@ function sendMail() {
       number: document.getElementById('number').value
     };
 
-    emailjs.send('service_lxuxqid', 'template_k7rmfkg',params).then(alert('Email Sent!'));
+    emailjs
+      .send('service_emailservice', 'template_6nkr9he', parms)
+      .then(alert('Email Sent!!!!!!'));
 
 }
 
-template_k7rmfkg;
