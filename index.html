@@ -19,6 +19,18 @@
       src="//code.tidio.co/reyrowfzsuoklospbgfrbjgkilqag2fp.js"
       async
     ></script>
+
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("h2ZDDorYvlAXcu4rD");
+   })();
+</script>
+<script src="js/email.js"></script>
+
   </head>
 
   <!-- <script>
@@ -452,15 +464,19 @@ die('Thank you for your email');
         <button type="button" onclick="sendEmail()">Submit</button>
     </form> -->
 
-      <form action="mailto:japresaperez@gmail.com" method="GET">
+      <form>
         <div class="input-box">
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Email Address" />
+          <input type="text" id="name" placeholder="Full Name" />
+
+
+          <input type="email" id="email" placeholder="Email Address" />
         </div>
 
         <div class="input-box">
-          <input type="number" placeholder="Mobile Number" />
-          <input type="email" placeholder="Email Subject" />
+          <input type="number" id="number" placeholder="Mobile Number" />
+
+
+          <input type="text" id="subject" placeholder="Email Subject" />
         </div>
 
         <textarea
@@ -470,8 +486,14 @@ die('Thank you for your email');
           row="10"
           placeholder="Your Message"
         ></textarea>
-        <input type="submit" value="Send Message" class="btn" />
+
+        <input type="submit" onclick="sendMail()" id="message" value="Send Message" class="btn" />
+
+<!-- 
+        <button type="button" >Submit</button> -->
+
       </form>
+
 
 
       
@@ -544,8 +566,29 @@ die('Thank you for your email');
       
       </div>
     </footer>
+
+
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
 <script src="script.js"></script>
-    <script>
+<!-- <script>
+  function sendEmail(){
+    Email.send({
+    Host : "smtp.gmail.com",
+    Username : "japresaperez@gmail.com",
+    Password : "joker696969",
+    To : 'japresaperez@gmail.com',
+    From : document.getElementById('email').value,
+    Subject : "New Contact Form Enquiry",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+  }
+   -->
+
+</script>
+    <!-- <script>
       function download() {
         var str = '<?php echo $file_content;?>';
         var a = document.createElement('a');
@@ -559,7 +602,7 @@ die('Thank you for your email');
         a.click();
         window.URL.revokeObjectURL(url);
       }
-    </script>
+    </script> -->
 
     <!-- scroll reveal -->
 
