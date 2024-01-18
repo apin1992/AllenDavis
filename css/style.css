@@ -162,10 +162,11 @@ span {
   box-shadow: 0 0 1rem var(--main-color);
  
 }
-/* #linked-in {
+#linked-in {
   color: var(--second-bg-color) !important;
 
-}
+}/* 
+test number one 
 #linked-in:hover {
   color: var(--second-bg-color) !important;
 } */
