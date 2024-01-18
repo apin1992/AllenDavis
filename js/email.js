@@ -11,7 +11,7 @@ function sendMail() {
 
     emailjs
       .send('service_emailservice', 'template_6nkr9he', parms)
-      .then(alert('Email Sent!!!!!!'));
+      .then(alert('Email Sent Successfully! Have a blessed day.'));
 
 }
 
