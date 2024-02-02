@@ -15,7 +15,7 @@
   --bg-color: #000;
   --second-bg-color: #cccccc;
   --text-color: #fff;
-  --main-color: #002366;
+  --main-color: #1da1f2;
 }
 
 html {
@@ -151,17 +151,16 @@ span {
   border: 0.2rem solid var(--main-color);
   border-radius: 50%;
   font-size: 2rem;
-  color: var(--main-color) ;
+  color: var(--main-color);
   margin: 3rem 1.5rem 3rem 0;
   transition: 0.5s ease;
 }
 
 .social-media a:hover {
   background: var(--main-color);
-  color: var(--second-bg-color) ;
+  color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
- 
-}/*
+} /*
 #linked-in {
   color: var(--second-bg-color) !important;
 
@@ -178,7 +177,7 @@ test number one
   border-radius: 4rem;
   box-shadow: 0 0 1rem var(--main-color);
   font-size: 1.6rem;
-  color: var(--second-bg-color);
+  color: black;
   letter-spacing: 0.1rem;
   font-weight: 600;
   transition: 0.5s ease;
@@ -193,7 +192,8 @@ test number one
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background: var(--main-color);
+  background: darkblue;
+  color: ;
 }
 
 .about-img img {
@@ -233,6 +233,9 @@ test number one
 .about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+}
+.services {
+  color: black;
 }
 
 .services h2 {
@@ -355,6 +358,9 @@ test number one
   font-size: 2rem;
   color: var(--second-bg-color);
 }
+.contact {
+  color: var(--main-color);
+}
 
 .contact h2 {
   margin-bottom: 3rem;
@@ -378,7 +384,7 @@ h2 {
 .contact-info {
   margin-top: 20px;
   font-size: 4vh;
-  color: #fff;
+  color: var(--main-color);
 }
 
 .contact-info p {
@@ -386,7 +392,7 @@ h2 {
 }
 .contact-info a {
   margin: 10px 0;
-  color: #fff;
+  color: var(--main-color);
   text-decoration: underline;
 }
 /* Media Queries for Responsive Design */
@@ -414,7 +420,7 @@ h2 {
   width: 100%;
   padding: 1.5rem;
   font-size: 1.6rem;
-  color: var(--text-color);
+  color: black;
   background: var(--second-bg-color);
   border-radius: 0.8rem;
   margin: 0.7rem 0;
