@@ -102,9 +102,6 @@ section {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin-right: 10rem;
-  padding-right: 10rem;
-
 }
 
 @keyframes floatImage {
@@ -196,7 +193,7 @@ test number one
   align-items: center;
   gap: 2rem;
   background: darkblue;
-  color: ;
+
 }
 
 .about-img img {

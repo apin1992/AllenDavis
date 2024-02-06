@@ -10,7 +10,7 @@ function sendMail() {
     };
 
     emailjs
-      .send('service_emailservice', 'template_6nkr9he', parms)
+      .send('service_f9hown5', 'template_nqkomyv', parms)
       .then(alert('Email Sent Successfully! Have a blessed day.'));
 
 }
