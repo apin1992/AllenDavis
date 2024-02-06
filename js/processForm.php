@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Server-side validation (you can add more checks here)
 
   // Send email
-  $to = "japresaperez@gmail.com";
+  $to = "Synergy00counseling@gmail.com";
   $subject = "New Contact Form Submission";
   $headers = "From: $email";
 
