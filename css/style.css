@@ -634,6 +634,7 @@ h2 {
 }
 
 @media (max-width: 450px) {
+  
   html {
     font-size: 50%;
   }
@@ -658,6 +659,12 @@ h2 {
 }
 
 @media (max-width: 365px) {
+ .navbar {
+  display: block;
+ }
+ #menu-icon {
+  display: block;
+ }
   .home-img img {
     width: 90vw;
   }
