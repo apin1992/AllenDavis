@@ -408,7 +408,9 @@ h2 {
 @media only screen and (max-width: 600px) {
   .contact-container {
     padding: 15px;
-  }
+  }#menu-icon {
+  display: block;
+ }
 }
 
 .contact form {
