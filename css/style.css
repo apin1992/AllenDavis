@@ -633,6 +633,8 @@ h2 {
     height: 100%;
     object-fit: cover;
   }
+     
+
 }
 
 @media (max-width: 450px) {
@@ -668,7 +670,7 @@ h2 {
   display: block;
  }
   .home-img img {
-    width: 90vw;
+    width: 10vw;
   }
 
   .about-img img {
