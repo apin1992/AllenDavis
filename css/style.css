@@ -49,6 +49,15 @@ section {
 .header.sticky {
   border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
 }
+.sonder {
+  
+  font-size: 5rem;
+  justify-content: center;
+  text-align: center;
+}
+.sonder a {
+  color: var(--second-bg-color);
+}
 
 .logo {
   font-size: 2.5rem;
