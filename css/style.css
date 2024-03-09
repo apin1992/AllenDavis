@@ -530,6 +530,12 @@ h2 {
   #menu-icon {
     display: block;
   }
+  .sonder {
+  
+  font-size: 2rem;
+  justify-content: center;
+  text-align: center;
+}
 
   .navbar {
     position: absolute;
