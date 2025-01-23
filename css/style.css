@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
+  opacity: 40%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -50,7 +51,6 @@ section {
   border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
 }
 .sonder {
-  
   font-size: 5rem;
   justify-content: center;
   text-align: center;
@@ -64,15 +64,13 @@ section {
   color: var(--text-color);
   font-weight: 600;
   cursor: default;
-  
-
 }
-.logo img{
-  width: 10rem;}
-  .title-span {
-    font-size: 3rem;
-   
-  }
+.logo img {
+  width: 10rem;
+}
+.title-span {
+  font-size: 3rem;
+}
 
 .navbar a {
   font-size: 1.7rem;
@@ -119,7 +117,7 @@ section {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  right: .5vh;
+  right: 0.5vh;
 }
 
 @keyframes floatImage {
@@ -211,7 +209,6 @@ test number one
   align-items: center;
   gap: 2rem;
   background: darkblue;
-
 }
 
 .about-img img {
@@ -417,9 +414,10 @@ h2 {
 @media only screen and (max-width: 600px) {
   .contact-container {
     padding: 15px;
-  }#menu-icon {
-  display: block;
- }
+  }
+  #menu-icon {
+    display: block;
+  }
 }
 
 .contact form {
@@ -531,11 +529,10 @@ h2 {
     display: block;
   }
   .sonder {
-  
-  font-size: 2rem;
-  justify-content: center;
-  text-align: center;
-}
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+  }
 
   .navbar {
     position: absolute;
@@ -648,12 +645,9 @@ h2 {
     height: 100%;
     object-fit: cover;
   }
-     
-
 }
 
 @media (max-width: 450px) {
-  
   html {
     font-size: 50%;
   }
@@ -678,12 +672,12 @@ h2 {
 }
 
 @media (max-width: 365px) {
- .navbar {
-  display: block;
- }
- #menu-icon {
-  display: block;
- }
+  .navbar {
+    display: block;
+  }
+  #menu-icon {
+    display: block;
+  }
   .home-img img {
     width: 10vw;
   }
