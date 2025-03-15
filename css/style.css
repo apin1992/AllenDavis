@@ -56,7 +56,7 @@ section {
   text-align: center;
 }
 .sonder a {
-  color: var(--second-bg-color);
+  color: var(--main-color);
 }
 
 .partner-platforms {
